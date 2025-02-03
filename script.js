@@ -33,10 +33,11 @@ function sendMessage() {
 function getBotResponse(message) {
   // Simple predefined responses in Kinyarwanda
   const responses = {
-    'muraho': 'Muraho! Ni wewe ni we? Nk'ubutumwa bwange.',
+    'muraho': 'Muraho! Ni wewe ni we? Nk\'ubutumwa bwange.',
     'ubumenyi': 'Ni mu gihe amakuru yawe?',
     'ubu': 'Nta muri buherere. Murakoze kugera!',
     'urakoze': 'Urakoze ko wowe! Ni wewe ni we?',
+    'amajyaruguru': 'Amajyaruguru yakora ku bikoranyo byawe.',
     'default': "Nta ndetse nizobona amakuru yawe. Murakoze!"
   };
 
